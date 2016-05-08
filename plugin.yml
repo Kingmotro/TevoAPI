@@ -1,0 +1,105 @@
+name: TevoAPI
+description: Manages all servers on the Tevo Network and provides some useful utils.
+author: Thrusmyster
+website: http://www.tevonetwork.com
+database: true
+load: POSTWORLD
+main: com.tevonetwork.tevoapi.TevoAPI
+version: ALPHA 1.9.8
+commands:
+    back:
+        description: Takes the player back to their previous location.
+    broadcast:
+        description: Send global broadcasts
+        aliases: bc
+    channel:
+        description: Change chat channels
+        aliases: c
+    clearchat:
+        description: Clears the chat
+        aliases: cc
+    ci:
+        description: Clears inventory
+    delwarp:
+        description: Delete a Warp
+    day:
+        description: day
+    night:
+        description: night
+    time:
+        description: set time of world
+    gamemode:
+        description: What do u think...
+        aliases: gm
+    feed:
+        description: Feed command
+    fly:
+        description: Toggles fly mode
+        alias: flight
+    help:
+        description: Shows the player the help msg defined in config
+        aliases: '?'
+    namecheck:
+        description: Checks the name history of the player
+        aliases: checkname
+    ping:
+        description: Chats the players ping
+    portal:
+        description: Portal management
+    ram:
+        description: Shows ram usage of the current runtime
+        aliases: gc
+    slap:
+        description: Inside joke...
+    tas:
+        description: Manage antiswear/antiadvertise
+        aliases: tevoantiswear
+    tevoapi:
+        description: Command for author info and reload.
+    world:
+        description: Manage worlds
+    i:
+        description: Gives a player items
+    info:
+        description: Displays info about a player
+    msg:
+        description: Message a player.
+        aliases: tell
+    reply:
+        description: Reply to a player msg
+        aliases: r
+    setwarp:
+        description: Set warps
+    tp:
+        description: Teleportation
+        aliases: teleport
+    tppos:
+        description: Teleport to a precise location in the current world
+        aliases: tpprecise
+    vote:
+        description: shows the vote list.
+    warp:
+        description: Manage warps
+    sudo:
+        description: Make a player perform an action in chat
+    speed:
+        description: Change walk and fly speed
+    op:
+        description: Give a player network operator status, uses opsyncTM
+    deop:
+        description: Remove status of network operator from player, uses opsyncTM
+    killall:
+        description: Removes entities etc
+        aliases: remove
+    tphere:
+        description: Teleport a player to you
+        aliases: tph
+    punish:
+        description: Punishment Commands
+        aliases: p
+    kick:
+        description: Kick a player from the network
+        aliases: disconnect
+    tokens:
+        description: Manage tokens balances
+        aliases: tevotokens

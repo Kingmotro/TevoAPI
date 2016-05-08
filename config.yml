@@ -1,0 +1,31 @@
+votelinks:
+  - '&e&lPlanet Minecraft &a&lwww.goole.co.uk'
+  - '&e&lMinecraft Servers &a&lmiecraftservers.org'
+  - '&e&lSome other List &a&lwww.example.com'
+helpmsgdefault:
+  - 'Get some balls on ya!'
+  - '/msg, hmm wander what that one does... duh fucktard'
+  - '/stop, no... just no.'
+helpmsgstaff:
+  - 'Get some balls on ya!'
+  - '/msg, hmm wander what that one does... duh fucktard'
+  - '/stop, no... just no.'
+swearblacklist:
+  - 'fuck'
+  - 'shit'
+  - 'twat'
+  - 'cunt'
+  - 'bastard'
+  - 'penis'
+  - 'cock'
+  - 'pussy'
+  - 'dickhead'
+  - 'noob'
+announcer:
+  - '&b&lFound a rule breaker? &e&lReport them on the forums! Or use &7&l/report c&lPlease do not hackusate, we are well aware of who is hacking and who isn't!'
+  - '&e&lBe sure to sign up on the website at &a&lwww.tevonetwork.com'
+  - '&e&lGot some ideas or feedback you wish to share with us? Post it on the forums at &awww.tevonetwork.com'
+  - '&e&lWe are not accepting staff at the moment so please do not keep asking us about applying. Thank you'
+  - '&e&lWe offer some great donator ranks in our server store at &astore.tevonetwork.com &e&lEach one unlocks amazing things and we are constantly adding more perks to them!'
+  - '&e&lNeed some general help on the commands here? Use &7&l/help'
+handledeathmsgs: true
